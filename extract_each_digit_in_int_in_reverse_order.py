@@ -5,3 +5,11 @@
 # number = str(number)
 # reversed = number[::-1]
 # print reverse with .join to add spaces between
+
+# # # CODE # # #
+
+number = 7536
+reversed = str(number)[::-1]
+
+print(f"The given number is: {number}\n")
+print("The reversed number is:", " ".join(reversed))
